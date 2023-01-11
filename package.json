@@ -1,0 +1,16 @@
+{
+  "name": "sp20-bcs-162-lab-final-q1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abdullah khan",
+  "license": "ISC",
+  "dependencies": {
+    "cros": "^1.0.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3"
+  }
+}

@@ -1,0 +1,31 @@
+fetch('https://dummyjson.com/posts?limit=10&skip=10&select=title,reactions,userId')
+.then(res => res.json())
+.then(console.log);
+            
+           
+              
+{
+  "posts": [
+    {
+      "id": 11, // first 10 items are skipped
+      "title": "It wasn't quite yet time to panic.",
+      "reactions": 5,
+      "userId": 25
+    },
+    {
+      "id": 12,
+      "title": "She was aware that things could go wrong.",
+      "reactions": 7,
+      "userId": 26
+    },
+    {...},
+    {...},
+    {...}
+    // 10 items
+  ],
+  "total": 150,
+  "skip": 10,
+  "limit": 10
+}
+              
+            
